@@ -100,11 +100,11 @@ python manage.py runserver
 ```
 
 ## 6️⃣ Open frontend
-```
-Open frontend/index.html using Live Server (VS Code)
-OR
+
+- Open frontend/index.html using Live Server (VS Code)
+(or)
 Open directly in browser
-```
+
 
 ## 🎯 Design Decisions
 
@@ -127,10 +127,4 @@ Open directly in browser
 - Kiran
 GitHub: https://github.com/KiranD99
 
-## ⭐ If you like this project
-
-- Give it a star ⭐ on GitHub!
-
-
----
 

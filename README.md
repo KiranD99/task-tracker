@@ -100,59 +100,37 @@ python manage.py runserver
 ```
 
 ## 6️⃣ Open frontend
-
+```
 Open frontend/index.html using Live Server (VS Code)
 OR
 Open directly in browser
+```
 
 ## 🎯 Design Decisions
 
-Live second-by-second timers were intentionally avoided to:
-
-Reduce backend polling
-
-Improve performance
-
-Keep architecture clean
-
-Remaining duration is calculated statically on the frontend
-
-Completed tasks are archived instead of deleted
+- Live second-by-second timers were intentionally avoided to:
+- Reduce backend polling
+- Improve performance
+- Keep architecture clean
+- Remaining duration is calculated statically on the frontend
+- Completed tasks are archived instead of deleted
 
 ## 📌 Future Improvements
 
-User authentication
-
-Export completed tasks to CSV / Excel
-
-React frontend
-
-Date range filtering
-
-Deployment to cloud (Render / AWS)
+- User authentication
+- Export completed tasks to CSV / Excel
+- React frontend
+- Date range filtering
+- Deployment to cloud (Render / AWS)
 
 ## 👤 Author
-Kiran
+- Kiran
 GitHub: https://github.com/KiranD99
 
 ## ⭐ If you like this project
 
-Give it a star ⭐ on GitHub!
+- Give it a star ⭐ on GitHub!
 
 
 ---
 
-## ✅ NEXT STEPS (DO THIS NOW)
-
-### 1️⃣ Save the file
-- Create `README.md` in your project root and paste the content.
-
----
-
-### 2️⃣ Commit & Push
-
-```bash
-git add README.md
-git commit -m "Add README with project overview and setup instructions"
-git push
-```

@@ -39,6 +39,7 @@ This project allows users to manage tasks with start and end date-time, track re
 ---
 
 ## 📁 Project Structure
+```
 task-tracker/
 │
 ├── tasktracker/ # Django project settings
@@ -53,7 +54,7 @@ task-tracker/
 ├── manage.py
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 

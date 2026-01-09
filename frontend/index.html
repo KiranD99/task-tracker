@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-title">Task Tracker</div>
+  <div class="nav-actions">
+    <a href="completed.html" class="nav-btn">Completed Tasks</a>
+  </div>
+</nav>
+
+<!-- TOP INPUT ROW -->
+<div class="input-row">
+  <input id="taskName" placeholder="Task name" />
+
+  <input id="startTime" type="datetime-local" />
+  <input id="endTime" type="datetime-local" />
+
+  <input id="notes" placeholder="Notes" />
+
+  <button onclick="addTask()">Add</button>
+</div>
+
+<!-- TASK TABLE -->
+<table>
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Duration</th>
+      <th>Notes</th>
+      <th>Completed</th>
+    </tr>
+  </thead>
+  <tbody id="taskTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
